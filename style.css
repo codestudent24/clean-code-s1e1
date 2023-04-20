@@ -72,8 +72,8 @@ button:hover {
 }
 
 /* Heading */
-h3,
-.label:nth-of-type(1) {
+.h3,
+.label:nth-child(1) {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,7 +101,7 @@ h3,
 }
 
 /* New Task */
-.label:nth-of-type(1) {
+.label:nth-child(1) {
   display: block;
   margin: 0 0 20px;
 }
@@ -157,7 +157,7 @@ h3,
 }
 
 /* Edit Task */
-.ul .li .input-text {
+.li .input-text {
   display:none
 }
 
