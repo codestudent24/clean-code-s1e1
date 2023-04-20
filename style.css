@@ -35,7 +35,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-wrapper {
@@ -43,21 +43,21 @@
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li,
 h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,
 button {
-  outline:none;
+  outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +67,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 
@@ -137,7 +137,7 @@ button:hover {
 }
 
 .li > .input-text {
-  width: 226px
+  width: 226px;
 }
 
 .delete-image {
@@ -158,14 +158,14 @@ button:hover {
 
 /* Edit Task */
 .li .input-text {
-  display:none
+  display: none;
 }
 
 .edit-mode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .edit-mode .label {
-  display:none;
+  display: none;
 }
